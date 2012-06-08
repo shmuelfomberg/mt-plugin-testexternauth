@@ -1,0 +1,4 @@
+id: TestExtrnAuth
+name: "TestExtrnAuth"
+description: "Implementing a minimal External Authentication Module"
+version: 1.0

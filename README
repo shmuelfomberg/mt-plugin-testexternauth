@@ -1,0 +1,20 @@
+Movable Type Plugin: Test Extern Auth
+-------------------------------------
+
+Used to test the external authentication of MT with a plugin other then
+the Enterprise addon - LDAP.
+
+Installation
+------------
+
+as any other plugin, dump the plugins directory into MT's plugins
+
+Add to your mt-config.cgi the following lines:
+
+AuthenticationModule TestExtern
+ExternalUserManagement 1
+
+The user list is in "userlist.txt" file in the plugin directory. 
+each line is a username,password record.
+
+
